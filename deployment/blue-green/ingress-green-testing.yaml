@@ -10,19 +10,19 @@ metadata:
       }  
 spec:
   rules:
-  - host: #USER#.workshop.ezylinux.com
+  - host: #USER#.janjanjan.xyz
     http:
       paths:
       - backend:
           serviceName: app-#USER#-service-blue
           servicePort: 80      
-  - host: #USER#-blue.workshop.ezylinux.com
+  - host: #USER#-blue.janjanjan.xyz
     http:
       paths:
       - backend:
           serviceName: app-#USER#-service-blue
           servicePort: 80  
-  - host: #USER#-green.workshop.ezylinux.com
+  - host: #USER#-green.janjanjan.xyz
     http:
       paths:
       - backend:
